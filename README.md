@@ -5,7 +5,6 @@ This extension allows you to view pyre errors for any workspace containing a .py
 ## Requirements
 
 pyre must be installed for the extension to work. You can do so by running `pip install pyre-check`. Also requires the Atom IDE UI (apm install atom-ide-ui).
-best results. 
 
 ## Issues
 
