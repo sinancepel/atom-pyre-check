@@ -1,0 +1,71 @@
+{
+  "name": "ide-pyre",
+  "main": "./lib/main",
+  "license": "MIT",
+  "repository": "https://github.com/facebook/pyre-check",
+  "version": "0.0.0",
+  "description": "Pyre support for Atom IDE",
+  "engines": {
+    "atom": ">=1.21.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "0.9.5"
+  },
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "enhancedScopes": [
+    "source.py"
+  ],
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    },
+    "hyperclick": {
+      "versions": {
+        "0.1.0": "provideHyperclick"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^v4.6.0",
+    "eslint-config-fbjs-opensource": "^1.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-rulesdir": "^0.1.0",
+    "prettier": "^1.6.1"
+  }
+}
