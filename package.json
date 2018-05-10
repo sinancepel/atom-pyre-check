@@ -2,7 +2,7 @@
   "name": "ide-pyre",
   "main": "./lib/main",
   "license": "MIT",
-  "repository": "https://github.com/facebook/pyre-check",
+  "repository": "https://github.com/sinancepel/ide-pyre-check",
   "version": "0.0.0",
   "description": "Pyre support for Atom IDE",
   "engines": {
