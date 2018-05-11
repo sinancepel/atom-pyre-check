@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "license": "MIT",
   "repository": "https://github.com/sinancepel/atom-pyre-check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pyre support for Atom IDE",
   "engines": {
     "atom": ">=1.21.0"
