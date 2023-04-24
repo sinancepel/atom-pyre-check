@@ -62,7 +62,7 @@
     }
   },
   "devDependencies": {
-    "eslint": "^v4.6.0",
+    "eslint": "^v8.39.0",
     "eslint-config-fbjs-opensource": "^1.0.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-rulesdir": "^0.1.0",
